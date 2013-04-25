@@ -1,0 +1,1855 @@
+/* columbia styles */
+/**fonts**/
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url("../fonts/BebasNeue-webfont.eot");
+  src: url("../fonts/BebasNeue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue-webfont.woff") format("woff"), url("../fonts/BebasNeue-webfont.ttf") format("truetype"), url("../fonts/BebasNeue-webfont.svg#BebasNeueRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 16, ../sass/columbia.scss */
+a {
+  color: #670604;
+}
+/* line 19, ../sass/columbia.scss */
+a:hover {
+  color: #1D0101;
+}
+/* line 23, ../sass/columbia.scss */
+a:link {
+  color: #670604;
+}
+/* line 27, ../sass/columbia.scss */
+a:visited {
+  color: #670604;
+}
+
+/**end fonts**/
+/**color declarations**/
+/**end colors**/
+/**re-usable classes**/
+/* line 44, ../sass/columbia.scss */
+.push-top {
+  padding-top: 10px;
+}
+
+/* line 48, ../sass/columbia.scss */
+.bebas {
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+}
+
+/**end re-usable classes**/
+/**key frames**/
+@-webkit-keyframes animate-cloud {
+  /* line 57, ../sass/columbia.scss */
+  from {
+    background-position: 600px 100%;
+  }
+
+  /* line 60, ../sass/columbia.scss */
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-moz-keyframes animate-cloud {
+  /* line 65, ../sass/columbia.scss */
+  from {
+    background-position: 600px 100%;
+  }
+
+  /* line 68, ../sass/columbia.scss */
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-ms-keyframes animate-cloud {
+  /* line 73, ../sass/columbia.scss */
+  from {
+    background-position: 600px 100%;
+  }
+
+  /* line 76, ../sass/columbia.scss */
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-o-keyframes animate-cloud {
+  /* line 81, ../sass/columbia.scss */
+  from {
+    background-position: 600px 100%;
+  }
+
+  /* line 84, ../sass/columbia.scss */
+  to {
+    background-position: 0 100%;
+  }
+}
+
+/* line 88, ../sass/columbia.scss */
+.animate-cloud-key from {
+  background-position: 600px 100%;
+}
+
+/* line 91, ../sass/columbia.scss */
+.animate-cloud-key to {
+  background-position: 0 100%;
+}
+
+/**end keyframes**/
+/* line 97, ../sass/columbia.scss */
+.row {
+  width: 980px;
+}
+
+/**begin animated background**/
+/* line 103, ../sass/columbia.scss */
+body {
+  background: black url(../images/textured_clouds-bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 111, ../sass/columbia.scss */
+.moving_clouds {
+  background: url(../images/cloud.png) 0 50% repeat-x;
+  -webkit-animation: animate-cloud 20s linear infinite;
+  -moz-animation: animate-cloud 20s linear infinite;
+  -ms-animation: animate-cloud 20s linear infinite;
+  -o-animation: animate-cloud 20s linear infinite;
+  animation: animate-cloud 20s linear infinite;
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  clear: both;
+  z-index: 20;
+}
+
+/* line 130, ../sass/columbia.scss */
+.title {
+  margin-top: -13px;
+  position: absolute;
+  z-index: 99999;
+  width: 286px;
+  left: 50%;
+  margin-left: -140px;
+}
+
+/* line 140, ../sass/columbia.scss */
+#zepplin {
+  background: url(../images/massive_zepplin.png) 105% 0 no-repeat;
+  margin-top: 300px;
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+/* line 150, ../sass/columbia.scss */
+#floating_house {
+  background: url(../images/floating_house.png) 85% 0 no-repeat;
+  margin-top: 350px;
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+}
+
+/**end animated background**/
+/*top banner*/
+/* line 164, ../sass/columbia.scss */
+#ignHeader {
+  z-index: 99999;
+}
+/* line 168, ../sass/columbia.scss */
+#ignHeader #ignHeader-userBar {
+  background: url(../images/top_banner-leather.png) repeat-x top left;
+  height: 97px;
+  -moz-box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0px 5px 3pxrgba 0, 0, 0, 0.6;
+  box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.6);
+}
+/* line 176, ../sass/columbia.scss */
+#ignHeader #ignHeader-userBar #ignHeader-logo {
+  background: url(../images/ign_logo.png) no-repeat center 10px;
+  height: 50px;
+  width: 100%;
+}
+/* line 183, ../sass/columbia.scss */
+#ignHeader #ignHeader-navigation {
+  top: 46px;
+  height: 53px;
+  -moz-box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.3);
+  background: url(../images/top_stone-banner.png) repeat-x top left;
+}
+/* line 193, ../sass/columbia.scss */
+#ignHeader #ignHeader-navigation .ignHeader-navLinks {
+  padding: 17px 0px;
+}
+/* line 196, ../sass/columbia.scss */
+#ignHeader #ignHeader-navigation .ignHeader-navLinks .ignHeader-navItem a {
+  color: white;
+  text-shadow: 0px 0px 10px #151515;
+}
+/* line 203, ../sass/columbia.scss */
+#ignHeader #ignHeader-navigation #nav-home a:link, #ignHeader #ignHeader-navigation #nav-home a:visited {
+  background-image: url(../images/header-icons.png);
+}
+
+/**end top banner**/
+/**gallery**/
+/* line 214, ../sass/columbia.scss */
+.feature_unit .twelve.columns {
+  background: url(../images/carousel_frame.png);
+  width: 1020px;
+  margin-left: -20px;
+}
+/* line 219, ../sass/columbia.scss */
+.feature_unit .twelve.columns .evo-coverStories {
+  margin: 16px 0px 0px 17px;
+  padding-bottom: 21px;
+}
+
+/**end gallery**/
+/**main**/
+/**start main**/
+/* line 231, ../sass/columbia.scss */
+#placeholding_container {
+  margin-top: 190px;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 999;
+  width: 1000px;
+  margin-left: -500px;
+  left: 50%;
+}
+
+/* line 243, ../sass/columbia.scss */
+.wrapper-shadow {
+  -moz-box-shadow: 0 0px 15px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.8);
+  margin: 0px 10px 150px;
+}
+
+/* line 250, ../sass/columbia.scss */
+#bi_main, #below_break {
+  background: #f8ebc9 url(../images/background_stripes.png) top left repeat-x;
+  height: 275px;
+  margin: 0px;
+}
+/* line 255, ../sass/columbia.scss */
+#bi_main .long, #below_break .long {
+  height: 900px;
+}
+/* line 259, ../sass/columbia.scss */
+#bi_main .video_unit, #below_break .video_unit {
+  background-color: black;
+  height: 77px;
+  padding: 2px;
+  background-color: white;
+  border: 1px solid #5f543f;
+}
+/* line 267, ../sass/columbia.scss */
+#bi_main .video_unit img, #below_break .video_unit img {
+  height: 100%;
+  width: 100%;
+  background-color: #cccccc;
+}
+/* line 273, ../sass/columbia.scss */
+#bi_main .video_unit span.play_btn, #below_break .video_unit span.play_btn {
+  background: url(../images/columbia_main-sprite.png) 0 -2px no-repeat;
+  height: 40px;
+  width: 45px;
+  display: block;
+  position: absolute;
+  left: 58px;
+  top: 20px;
+}
+/* line 284, ../sass/columbia.scss */
+#bi_main .media_vid, #below_break .media_vid {
+  border-right: 1px dotted #958e78;
+  height: 165px;
+}
+/* line 285, ../sass/columbia.scss */
+#bi_main .media_vid p, #below_break .media_vid p {
+  font-size: 22px;
+  color: #670604;
+  line-height: 24px;
+  margin-top: 10px;
+}
+/* line 300, ../sass/columbia.scss */
+#bi_main .top_story-wrapper, #below_break .top_story-wrapper {
+  padding-top: 10px;
+  height: 100px;
+  display: block;
+  float: left;
+}
+/* line 307, ../sass/columbia.scss */
+#bi_main .news_stories, #below_break .news_stories {
+  padding: 0px;
+}
+/* line 310, ../sass/columbia.scss */
+#bi_main .news_stories .media_vid, #below_break .news_stories .media_vid {
+  border-right: 0px;
+}
+/* line 314, ../sass/columbia.scss */
+#bi_main .news_stories h5, #below_break .news_stories h5 {
+  font-size: 22px;
+  color: #670604;
+  line-height: 24px;
+  margin-top: 10px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+/* line 323, ../sass/columbia.scss */
+#bi_main .news_stories p, #below_break .news_stories p {
+  font-size: 13px;
+}
+/* line 327, ../sass/columbia.scss */
+#bi_main .news_stories .time, #below_break .news_stories .time {
+  color: #685b46;
+  font-weight: bold;
+}
+
+/* line 334, ../sass/columbia.scss */
+.no-padding {
+  padding: 0px;
+}
+
+/* line 338, ../sass/columbia.scss */
+section#break_open {
+  height: 650px;
+  width: 980px;
+  background: url(../images/textured_break-background.jpg) repeat top left;
+  color: white;
+  text-shadow: none;
+  display: none;
+  position: relative;
+}
+/* line 350, ../sass/columbia.scss */
+section#break_open .top_border {
+  background: url(../images/textured_break-background-edge.jpg) repeat-x;
+  height: 16px;
+  -moz-box-shadow: 0px 5px 10px black;
+  -webkit-box-shadow: 0px 5px 10px black;
+  box-shadow: 0px 5px 10px black;
+}
+/* line 358, ../sass/columbia.scss */
+section#break_open .bottom_border {
+  background: url(../images/textured_break-background-edge-btm.jpg) repeat-x;
+  height: 16px;
+  position: absolute;
+  margin-top: 618px;
+  width: 100%;
+  -moz-box-shadow: 0px -5px 20px black;
+  -webkit-box-shadow: 0px -5px 20px black;
+  box-shadow: 0px -5px 20px black;
+  z-index: 9999;
+}
+/* line 370, ../sass/columbia.scss */
+section#break_open #zepplin {
+  z-index: 0;
+}
+
+/* line 375, ../sass/columbia.scss */
+#below_break {
+  height: 1000px;
+  background-color: #f8ebc9;
+  background-image: none;
+}
+/* line 380, ../sass/columbia.scss */
+#below_break #tweet_container {
+  width: 100%;
+  height: auto;
+}
+/* line 384, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_header {
+  height: 60px;
+}
+/* line 387, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_footer {
+  background: url(../images/columbia_main-sprite.png) -3px -504px no-repeat;
+  height: 50px;
+}
+/* line 392, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_inner {
+  height: auto;
+}
+/* line 396, ../sass/columbia.scss */
+#below_break #tweet_container #twitter_update_list {
+  background-color: #1D1815;
+  width: 300px;
+  margin-bottom: 0px;
+}
+/* line 402, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_button {
+  background: url(../images/columbia_main-sprite.png) -4px -583px no-repeat;
+  height: 41px;
+  width: 232px;
+  margin: auto;
+  display: block;
+}
+/* line 409, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_button:hover {
+  background: url(../images/columbia_main-sprite.png) -4px -624px no-repeat;
+}
+/* line 412, ../sass/columbia.scss */
+#below_break #tweet_container .tweet_button:active {
+  background: url(../images/columbia_main-sprite.png) -4px -664px no-repeat;
+}
+
+/* line 419, ../sass/columbia.scss */
+.top_stories-header {
+  border-left: 1px solid #958e78;
+  border-top: 1px solid #958e78;
+  border-right: 1px solid #958e78;
+  padding: 10px 15px 0px 15px;
+  float: left;
+  background-color: #f8ebc9;
+}
+
+/* line 428, ../sass/columbia.scss */
+.border-bottom-header {
+  border-bottom: 1px solid #958e78;
+  float: left;
+  width: 100%;
+  margin-bottom: 4px;
+  position: relative;
+  height: 50px;
+  margin-top: 35px;
+}
+
+/**end main**/
+/**video modal**/
+/* line 442, ../sass/columbia.scss */
+#preorderModal6 {
+  width: 940px;
+  left: 50%;
+  margin-left: -470px;
+}
+
+/* line 448, ../sass/columbia.scss */
+.reveal-modal {
+  background: black url(../images/modal_bg.jpg) repeat top left;
+  border: 2px solid #f1f0ef;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 1001;
+  top: 200px;
+}
+/* line 458, ../sass/columbia.scss */
+.reveal-modal a.close-reveal-modal {
+  background: url(../images/columbia_main-sprite.png) 0 -50px no-repeat;
+  height: 50px;
+  width: 50px;
+  margin-right: -33px;
+  margin-top: -25px;
+}
+
+/* line 467, ../sass/columbia.scss */
+.reveal-modal-bg {
+  z-index: 1000;
+}
+
+/**end video modal**/
+/**preloader**/
+/* line 474, ../sass/columbia.scss */
+#preload_background {
+  margin-left: -15px;
+  background-color: black;
+  opacity: 0.9;
+  height: 640px;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  top: 0px;
+}
+
+/* line 485, ../sass/columbia.scss */
+.preloader {
+  background: white;
+  width: 150px;
+  height: 110px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  color: black;
+  margin-top: 40px;
+  position: absolute;
+  z-index: 9999;
+  left: 42%;
+  top: 130px;
+}
+/* line 503, ../sass/columbia.scss */
+.preloader img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+/* line 509, ../sass/columbia.scss */
+.preloader h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: 'BebasNeueRegular';
+}
+
+/**end preloader**/
+/**column flow**/
+/* line 519, ../sass/columbia.scss */
+#article_reader {
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+  margin-bottom: 20px;
+  height: 630px;
+  width: 100%;
+  padding: 20px;
+}
+/* line 528, ../sass/columbia.scss */
+#article_reader .columns {
+  padding: 0px 25px;
+}
+/* line 532, ../sass/columbia.scss */
+#article_reader .wide, #article_reader .thin {
+  clear: both;
+}
+/* line 534, ../sass/columbia.scss */
+#article_reader blockquote {
+  font-style: italic;
+  margin-left: 10px;
+  border-left: 2px solid #EFEFEF;
+  padding-left: 8px;
+}
+/* line 535, ../sass/columbia.scss */
+#article_reader span.columnbreak {
+  display: block;
+  border-bottom: 1px dashed white;
+  height: 4px;
+  margin: 0 30%;
+}
+/* line 537, ../sass/columbia.scss */
+#article_reader .row {
+  margin-bottom: 20px;
+}
+/* line 541, ../sass/columbia.scss */
+#article_reader h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 0px;
+  text-align: center;
+  margin-top: 55px;
+}
+/* line 550, ../sass/columbia.scss */
+#article_reader h3 {
+  color: white;
+  font-weight: normal;
+}
+/* line 555, ../sass/columbia.scss */
+#article_reader h4.title_img {
+  font-size: 22px;
+}
+/* line 559, ../sass/columbia.scss */
+#article_reader h5 {
+  color: #a7a7a7;
+  font-weight: normal;
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* line 569, ../sass/columbia.scss */
+#article_reader h4 {
+  font-size: 22px;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  font-weight: normal;
+  margin: 20px 0px 10px;
+}
+/* line 577, ../sass/columbia.scss */
+#article_reader h4.news_title {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 584, ../sass/columbia.scss */
+#article_reader ul {
+  margin-left: 0px;
+  margin-bottom: 40px;
+}
+/* line 588, ../sass/columbia.scss */
+#article_reader ul.confidential {
+  border-top: 3px solid #BA0000;
+  border-bottom: 3px solid #BA0000;
+  margin-bottom: 30px;
+  height: 34px;
+  padding-top: 6px;
+}
+/* line 595, ../sass/columbia.scss */
+#article_reader ul.confidential li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-style: italic;
+  font-size: 26px;
+  color: #BA0000;
+}
+/* line 605, ../sass/columbia.scss */
+#article_reader ul li {
+  color: #a7a7a7;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+/* line 613, ../sass/columbia.scss */
+#article_reader .column {
+  margin-top: 15px;
+}
+/* line 617, ../sass/columbia.scss */
+#article_reader .center {
+  text-align: center;
+}
+/* line 621, ../sass/columbia.scss */
+#article_reader ul {
+  line-height: 10px;
+  padding: 0px;
+}
+/* line 626, ../sass/columbia.scss */
+#article_reader p {
+  margin-bottom: 5px;
+}
+/* line 630, ../sass/columbia.scss */
+#article_reader .date_sub {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 5px;
+}
+/* line 636, ../sass/columbia.scss */
+#article_reader p.handwriting {
+  font-style: italic;
+  font-family: 'georgia';
+  margin: 10px 0px 20px;
+  font-size: 16px;
+  color: #F5E2C1;
+}
+/* line 644, ../sass/columbia.scss */
+#article_reader .italic {
+  font-style: italic;
+}
+/* line 648, ../sass/columbia.scss */
+#article_reader .tape_top-left, #article_reader .tape_bottom-right {
+  float: left;
+  position: absolute;
+  display: block;
+  height: 55px;
+  width: 55px;
+  background: transparent url(../images/tape.png) top left no-repeat;
+  z-index: 9999;
+  margin-left: -12px;
+  margin-top: -11px;
+}
+/* line 660, ../sass/columbia.scss */
+#article_reader .tape_bottom-right {
+  right: 8px;
+  bottom: -15px;
+}
+/* line 665, ../sass/columbia.scss */
+#article_reader #navigation_btns {
+  position: absolute;
+  z-index: 9999;
+}
+
+/**stuff to remove if we don't go with columns **/
+/*#pages {
+  position: absolute;
+  width: 1000px;
+}
+
+#flowedContent {
+  float: left;
+  margin-top: 20px;
+}
+
+#fixedContent, #flowedContent {
+  display: none;
+}
+
+.column *{ padding: 5px; }
+
+#hidden-wrapper { display: none; }
+ #target {  margin: 0px; */
+/**stuff to remove if we don't go with columns **/
+/*}*/
+/**end column flow**/
+/**twitter feed**/
+/* line 704, ../sass/columbia.scss */
+#twitter_update_list {
+  padding: 10px 20px 20px;
+}
+/* line 708, ../sass/columbia.scss */
+#twitter_update_list li {
+  font-size: 12px;
+  color: #f7efda;
+  margin-bottom: 10px;
+  text-shadow: none;
+}
+/* line 714, ../sass/columbia.scss */
+#twitter_update_list li a {
+  color: #b51e14;
+}
+
+/* line 721, ../sass/columbia.scss */
+.pre-order {
+  background: url(../images/sprite_pre_order_en.png) no-repeat 0 0;
+  height: 115px;
+  width: 115px;
+  position: absolute;
+  z-index: 9999;
+  right: 16px;
+  cursor: pointer;
+  margin-top: -6px;
+}
+/* line 731, ../sass/columbia.scss */
+.pre-order:hover {
+  background-position: 0 -113px;
+}
+
+/* line 737, ../sass/columbia.scss */
+#preorderModal6 .bebas {
+  color: white;
+  text-shadow: none;
+  font-weight: normal;
+  font-size: 26px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 746, ../sass/columbia.scss */
+#preorderModal6 .go {
+  cursor: pointer;
+  background: url(../images/columbia_main-sprite.png) 0 -176px no-repeat;
+  height: 40px;
+  width: 70px;
+  display: block;
+  float: left;
+}
+/* line 755, ../sass/columbia.scss */
+#preorderModal6 .top_text {
+  font-size: 32px;
+  color: #ad1d1d;
+  margin-right: 0px;
+}
+/* line 761, ../sass/columbia.scss */
+#preorderModal6 .btm_text {
+  font-size: 58px;
+  color: #ad1d1d;
+  line-height: 30px;
+}
+/* line 768, ../sass/columbia.scss */
+#preorderModal6 .six label {
+  margin-left: 72px;
+}
+/* line 771, ../sass/columbia.scss */
+#preorderModal6 .six label.choose_label {
+  margin-left: 0px;
+}
+/* line 777, ../sass/columbia.scss */
+#preorderModal6 .choose_label {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+/* line 782, ../sass/columbia.scss */
+#preorderModal6 select, #preorderModal6 input {
+  float: left;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+/* line 789, ../sass/columbia.scss */
+#preorderModal6 .six .chzn-search input {
+  margin-left: 0px;
+  display: none;
+}
+/* line 791, ../sass/columbia.scss */
+#preorderModal6 .six .chzn-drop {
+  width: 300px!important;
+}
+/* line 794, ../sass/columbia.scss */
+#preorderModal6 p {
+  color: #FFFFFF;
+  font-size: 13px;
+  text-shadow: none;
+  margin-bottom: 3px;
+}
+/* line 801, ../sass/columbia.scss */
+#preorderModal6 p.top_push-down {
+  margin-top: 10px;
+}
+
+/* line 807, ../sass/columbia.scss */
+.comp_prize {
+  background: transparent url(../images/comp_sprite.jpg) 0 0 no-repeat;
+  height: 300px;
+  width: 100%;
+}
+/* line 812, ../sass/columbia.scss */
+.comp_prize.one_pack {
+  background-position: 0px 0px;
+}
+/* line 815, ../sass/columbia.scss */
+.comp_prize.two_pack {
+  background-position: -229px 0px;
+}
+/* line 818, ../sass/columbia.scss */
+.comp_prize.three_pack {
+  background-position: -653px 0px;
+}
+
+/* line 823, ../sass/columbia.scss */
+.comp_copy {
+  padding: 20px;
+}
+/* line 827, ../sass/columbia.scss */
+.comp_copy p, .comp_copy li {
+  font-size: 22px;
+}
+/* line 831, ../sass/columbia.scss */
+.comp_copy li {
+  text-align: center;
+  text-shadow: 0px 2px white;
+}
+
+/**age_gate**/
+/* line 838, ../sass/columbia.scss */
+.age_gate {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background: #f8ebc9 url(../images/background_stripes.png) top left repeat-x;
+  border: 2px solid #958e78;
+  position: absolute;
+  top: 250px;
+  z-index: 999;
+  width: 350px;
+  margin-left: -175px;
+  left: 50%;
+}
+/* line 855, ../sass/columbia.scss */
+.age_gate h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 26px;
+  text-align: center;
+  color: #670604;
+}
+
+/* line 867, ../sass/columbia.scss */
+.dob_gate.intro #ignHeader #ignHeader-userBar {
+  height: 57px;
+}
+/* line 870, ../sass/columbia.scss */
+.dob_gate.intro #ignHeader #ignHeader-navigation {
+  height: 10px;
+}
+/* line 875, ../sass/columbia.scss */
+.dob_gate.intro img {
+  margin-left: 76px;
+  margin-top: -29px;
+  width: 195px;
+}
+
+/* line 883, ../sass/columbia.scss */
+.dob_gate input {
+  float: left;
+  height: 34px;
+  margin: 0 5% 10px 0;
+  padding: 7px 0;
+  text-align: center;
+  width: 30%;
+}
+/* line 891, ../sass/columbia.scss */
+.dob_gate input.last {
+  margin-right: 0px;
+}
+/* line 895, ../sass/columbia.scss */
+.dob_gate input.submit {
+  font-size: 22px;
+}
+/* line 901, ../sass/columbia.scss */
+.dob_gate form {
+  padding: 0 30px 30px;
+}
+/* line 905, ../sass/columbia.scss */
+.dob_gate .verify-input {
+  display: block;
+  width: 60%;
+  margin-left: 55px;
+  height: 37px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px black;
+  background: #adcbfa;
+  background-clip: padding-box;
+  border: 1px solid #2A2324;
+  border-bottom-color: #2A2324;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #3c3233, #2a2324);
+  background-image: -moz-linear-gradient(top, #3c3233, #2a2324);
+  background-image: -o-linear-gradient(top, #3c3233, #2a2324);
+  background-image: linear-gradient(to bottom, #3c3233, #2a2324);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 929, ../sass/columbia.scss */
+.dob_gate .verify-input:active {
+  background: #2A2324;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/* line 938, ../sass/columbia.scss */
+.ng-pristine {
+  margin-top: 10px;
+  position: absolute;
+  z-index: 999;
+}
+/* line 943, ../sass/columbia.scss */
+.ng-pristine .verify-input {
+  width: 110px;
+}
+
+/* line 947, ../sass/columbia.scss */
+.verify-input {
+  display: block;
+  width: 60%;
+  margin-left: 55px;
+  height: 37px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px black;
+  background: #adcbfa;
+  background-clip: padding-box;
+  border: 1px solid #2A2324;
+  border-bottom-color: #2A2324;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #3c3233, #2a2324);
+  background-image: -moz-linear-gradient(top, #3c3233, #2a2324);
+  background-image: -o-linear-gradient(top, #3c3233, #2a2324);
+  background-image: linear-gradient(to bottom, #3c3233, #2a2324);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* line 971, ../sass/columbia.scss */
+.verify-input:active {
+  background: #2A2324;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/**end age gate**/
+/* line 980, ../sass/columbia.scss */
+#close {
+  height: 40px;
+  width: 40px;
+  margin-left: -6px;
+  display: block;
+  float: left;
+  background: transparent url(../images/close_btn-break.png) top left no-repeat;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 9px;
+  opacity: 0.5;
+}
+/* line 992, ../sass/columbia.scss */
+#close:hover {
+  opacity: 1;
+}
+
+/* @group Base */
+/* line 1001, ../sass/columbia.scss */
+.chzn-container {
+  font-size: 13px;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  float: left;
+}
+
+/* line 1009, ../sass/columbia.scss */
+.chzn-container .chzn-drop {
+  background: #fff;
+  border: 1px solid #aaa;
+  border-top: 0;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1010;
+}
+
+/* @end */
+/* @group Single Chosen */
+/* line 1024, ../sass/columbia.scss */
+.chzn-container-single .chzn-single {
+  background-color: #ffffff;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0 );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, white), color-stop(50%, #f6f6f6), color-stop(52%, #eeeeee), color-stop(100%, #f4f4f4));
+  background-image: -webkit-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background-image: -moz-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background-image: -o-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background-image: linear-gradient(#ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #aaaaaa;
+  -webkit-box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 8px;
+  color: #444444;
+  text-decoration: none;
+}
+
+/* line 1052, ../sass/columbia.scss */
+.chzn-container-single .chzn-default {
+  color: #999;
+}
+
+/* line 1055, ../sass/columbia.scss */
+.chzn-container-single .chzn-single span {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* line 1064, ../sass/columbia.scss */
+.chzn-container-single .chzn-single abbr {
+  display: block;
+  position: absolute;
+  right: 26px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  font-size: 1px;
+  background: url("../images/chosen-sprite.png") -42px 1px no-repeat;
+}
+
+/* line 1074, ../sass/columbia.scss */
+.chzn-container-single .chzn-single abbr:hover {
+  background-position: -42px -10px;
+}
+
+/* line 1077, ../sass/columbia.scss */
+.chzn-container-single.chzn-disabled .chzn-single abbr:hover {
+  background-position: -42px -10px;
+}
+
+/* line 1080, ../sass/columbia.scss */
+.chzn-container-single .chzn-single div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 18px;
+}
+
+/* line 1088, ../sass/columbia.scss */
+.chzn-container-single .chzn-single div b {
+  background: url("../images/chosen-sprite.png") no-repeat 0px 2px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1094, ../sass/columbia.scss */
+.chzn-container-single .chzn-search {
+  padding: 3px 4px;
+  position: relative;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 1010;
+}
+
+/* line 1101, ../sass/columbia.scss */
+.chzn-container-single .chzn-search input {
+  background: white url("../images/chosen-sprite.png") no-repeat 100% -20px;
+  background: url("../images/chosen-sprite.png") no-repeat 100% -20px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
+  background: url("../images/chosen-sprite.png") no-repeat 100% -20px, -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat 100% -20px, -moz-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat 100% -20px, -o-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  outline: 0;
+  border: 1px solid #aaa;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+/* line 1115, ../sass/columbia.scss */
+.chzn-container-single .chzn-drop {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* @end */
+/* line 1125, ../sass/columbia.scss */
+.chzn-container-single-nosearch .chzn-search input {
+  position: absolute;
+  left: -9000px;
+}
+
+/* @group Multi Chosen */
+/* line 1131, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
+  background-image: -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
+  background-image: -moz-linear-gradient(top, #eeeeee 1%, white 15%);
+  background-image: -o-linear-gradient(top, #eeeeee 1%, white 15%);
+  background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
+  border: 1px solid #aaa;
+  margin: 0;
+  padding: 0;
+  cursor: text;
+  overflow: hidden;
+  height: auto !important;
+  height: 1%;
+  position: relative;
+}
+
+/* line 1147, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices li {
+  float: left;
+  list-style: none;
+}
+
+/* line 1151, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-field {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1156, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-field input {
+  color: #666;
+  background: transparent !important;
+  border: 0 !important;
+  font-family: sans-serif;
+  font-size: 100%;
+  height: 15px;
+  padding: 5px;
+  margin: 1px 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1170, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-field .default {
+  color: #999;
+}
+
+/* line 1173, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #e4e4e4;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#eeeeee', GradientType=0 );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  -webkit-box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #333;
+  border: 1px solid #aaaaaa;
+  line-height: 13px;
+  padding: 3px 20px 3px 5px;
+  margin: 3px 0 3px 5px;
+  position: relative;
+  cursor: default;
+}
+
+/* line 1198, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice.search-choice-disabled {
+  background-color: #e4e4e4;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#eeeeee', GradientType=0 );
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -ms-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  color: #666;
+  border: 1px solid #cccccc;
+  padding-right: 5px;
+}
+
+/* line 1211, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice-focus {
+  background: #d4d4d4;
+}
+
+/* line 1214, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice .search-choice-close {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  font-size: 1px;
+  background: url("../images/chosen-sprite.png") -42px 1px no-repeat;
+}
+
+/* line 1224, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice .search-choice-close:hover {
+  background-position: -42px -10px;
+}
+
+/* line 1227, ../sass/columbia.scss */
+.chzn-container-multi .chzn-choices .search-choice-focus .search-choice-close {
+  background-position: -42px -10px;
+}
+
+/* @end */
+/* @group Results */
+/* line 1233, ../sass/columbia.scss */
+.chzn-container .chzn-results {
+  margin: 0 4px 4px 0;
+  max-height: 150px;
+  padding: 0 0 0 4px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 1242, ../sass/columbia.scss */
+.chzn-container-multi .chzn-results {
+  margin: -1px 0 0;
+  padding: 0;
+}
+
+/* line 1246, ../sass/columbia.scss */
+.chzn-container .chzn-results li {
+  display: none;
+  line-height: 15px;
+  padding: 5px 6px;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 1253, ../sass/columbia.scss */
+.chzn-container .chzn-results .active-result {
+  cursor: pointer;
+  display: list-item;
+}
+
+/* line 1257, ../sass/columbia.scss */
+.chzn-container .chzn-results .highlighted {
+  background-color: #3875d7;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3875d7', endColorstr='#2a62bc', GradientType=0 );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
+  background-image: -webkit-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: -moz-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: -o-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
+  color: #fff;
+}
+
+/* line 1267, ../sass/columbia.scss */
+.chzn-container .chzn-results li em {
+  background: #feffde;
+  font-style: normal;
+}
+
+/* line 1271, ../sass/columbia.scss */
+.chzn-container .chzn-results .highlighted em {
+  background: transparent;
+}
+
+/* line 1274, ../sass/columbia.scss */
+.chzn-container .chzn-results .no-results {
+  background: #f4f4f4;
+  display: list-item;
+}
+
+/* line 1278, ../sass/columbia.scss */
+.chzn-container .chzn-results .group-result {
+  cursor: default;
+  color: #999;
+  font-weight: bold;
+}
+
+/* line 1283, ../sass/columbia.scss */
+.chzn-container .chzn-results .group-option {
+  padding-left: 15px;
+}
+
+/* line 1286, ../sass/columbia.scss */
+.chzn-container-multi .chzn-drop .result-selected {
+  display: none;
+}
+
+/* line 1289, ../sass/columbia.scss */
+.chzn-container .chzn-results-scroll {
+  background: white;
+  margin: 0 4px;
+  position: absolute;
+  text-align: center;
+  width: 321px;
+  /* This should by dynamic with js */
+  z-index: 1;
+}
+
+/* line 1297, ../sass/columbia.scss */
+.chzn-container .chzn-results-scroll span {
+  display: inline-block;
+  height: 17px;
+  text-indent: -5000px;
+  width: 9px;
+}
+
+/* line 1303, ../sass/columbia.scss */
+.chzn-container .chzn-results-scroll-down {
+  bottom: 0;
+}
+
+/* line 1306, ../sass/columbia.scss */
+.chzn-container .chzn-results-scroll-down span {
+  background: url("../images/chosen-sprite.png") no-repeat -4px -3px;
+}
+
+/* line 1309, ../sass/columbia.scss */
+.chzn-container .chzn-results-scroll-up span {
+  background: url("../images/chosen-sprite.png") no-repeat -22px -3px;
+}
+
+/* @end */
+/* @group Active  */
+/* line 1315, ../sass/columbia.scss */
+.chzn-container-active .chzn-single {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #5897fb;
+}
+
+/* line 1321, ../sass/columbia.scss */
+.chzn-container-active .chzn-single-with-drop {
+  border: 1px solid #aaa;
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow: 0 1px 0 #fff inset;
+  box-shadow: 0 1px 0 #fff inset;
+  background-color: #eee;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #eeeeee), color-stop(80%, white));
+  background-image: -webkit-linear-gradient(top, #eeeeee 20%, white 80%);
+  background-image: -moz-linear-gradient(top, #eeeeee 20%, white 80%);
+  background-image: -o-linear-gradient(top, #eeeeee 20%, white 80%);
+  background-image: linear-gradient(#eeeeee 20%, #ffffff 80%);
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 1340, ../sass/columbia.scss */
+.chzn-container-active .chzn-single-with-drop div {
+  background: transparent;
+  border-left: none;
+}
+
+/* line 1344, ../sass/columbia.scss */
+.chzn-container-active .chzn-single-with-drop div b {
+  background-position: -18px 2px;
+}
+
+/* line 1347, ../sass/columbia.scss */
+.chzn-container-active .chzn-choices {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #5897fb;
+}
+
+/* line 1353, ../sass/columbia.scss */
+.chzn-container-active .chzn-choices .search-field input {
+  color: #111 !important;
+}
+
+/* @end */
+/* @group Disabled Support */
+/* line 1359, ../sass/columbia.scss */
+.chzn-disabled {
+  cursor: default;
+  opacity: 0.5 !important;
+}
+
+/* line 1363, ../sass/columbia.scss */
+.chzn-disabled .chzn-single {
+  cursor: default;
+}
+
+/* line 1366, ../sass/columbia.scss */
+.chzn-disabled .chzn-choices .search-choice .search-choice-close {
+  cursor: default;
+}
+
+/* @group Right to Left */
+/* line 1371, ../sass/columbia.scss */
+.chzn-rtl {
+  text-align: right;
+}
+
+/* line 1372, ../sass/columbia.scss */
+.chzn-rtl .chzn-single {
+  padding: 0 8px 0 0;
+  overflow: visible;
+}
+
+/* line 1373, ../sass/columbia.scss */
+.chzn-rtl .chzn-single span {
+  margin-left: 26px;
+  margin-right: 0;
+  direction: rtl;
+}
+
+/* line 1375, ../sass/columbia.scss */
+.chzn-rtl .chzn-single div {
+  left: 3px;
+  right: auto;
+}
+
+/* line 1376, ../sass/columbia.scss */
+.chzn-rtl .chzn-single abbr {
+  left: 26px;
+  right: auto;
+}
+
+/* line 1380, ../sass/columbia.scss */
+.chzn-rtl .chzn-choices .search-field input {
+  direction: rtl;
+}
+
+/* line 1381, ../sass/columbia.scss */
+.chzn-rtl .chzn-choices li {
+  float: right;
+}
+
+/* line 1382, ../sass/columbia.scss */
+.chzn-rtl .chzn-choices .search-choice {
+  padding: 3px 5px 3px 19px;
+  margin: 3px 5px 3px 0;
+}
+
+/* line 1383, ../sass/columbia.scss */
+.chzn-rtl .chzn-choices .search-choice .search-choice-close {
+  left: 4px;
+  right: auto;
+}
+
+/* line 1384, ../sass/columbia.scss */
+.chzn-rtl.chzn-container-single .chzn-results {
+  margin: 0 0 4px 4px;
+  padding: 0 4px 0 0;
+}
+
+/* line 1385, ../sass/columbia.scss */
+.chzn-rtl .chzn-results .group-option {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+/* line 1386, ../sass/columbia.scss */
+.chzn-rtl.chzn-container-active .chzn-single-with-drop div {
+  border-right: none;
+}
+
+/* line 1387, ../sass/columbia.scss */
+.chzn-rtl .chzn-search input {
+  background: white url("../images/chosen-sprite.png") no-repeat -30px -20px;
+  background: url("../images/chosen-sprite.png") no-repeat -30px -20px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
+  background: url("../images/chosen-sprite.png") no-repeat -30px -20px, -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat -30px -20px, -moz-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat -30px -20px, -o-linear-gradient(top, #eeeeee 1%, white 15%);
+  background: url("../images/chosen-sprite.png") no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  padding: 4px 5px 4px 20px;
+  direction: rtl;
+}
+
+/* line 1397, ../sass/columbia.scss */
+.chzn-container-single.chzn-rtl .chzn-single div b {
+  background-position: 6px 2px;
+}
+
+/* line 1400, ../sass/columbia.scss */
+.chzn-container-single.chzn-rtl .chzn-single-with-drop div b {
+  background-position: -12px 2px;
+}
+
+/* @end */
+/**scrollbar
+
+#article_reader { width: 520px; clear: both; margin: 20px 0 10px; }
+#article_reader .viewport { width: 500px; height: 200px; overflow: hidden; position: relative; }
+#article_reader .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#article_reader .thumb .end,
+#article_reader .thumb { background-color: #003D5D; }
+#article_reader .scrollbar { position: relative; float: right; width: 15px; }
+#article_reader .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#article_reader .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#article_reader .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#article_reader .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+end scrollbar **/
+/**competition page**/
+/* line 1423, ../sass/columbia.scss */
+.dob_gate.comp {
+  height: 1200px;
+}
+/* line 1426, ../sass/columbia.scss */
+.dob_gate.comp img {
+  margin-left: 350px;
+}
+/* line 1430, ../sass/columbia.scss */
+.dob_gate.comp .title-tagline {
+  margin-left: -769px;
+}
+/* line 1432, ../sass/columbia.scss */
+.dob_gate.comp .title-tagline img {
+  margin-top: 200px;
+}
+/* line 1437, ../sass/columbia.scss */
+.dob_gate.comp form {
+  padding: 0px 20px 20px;
+}
+/* line 1441, ../sass/columbia.scss */
+.dob_gate.comp .competition {
+  position: absolute;
+  top: 355px;
+  z-index: 999;
+  width: 900px;
+  margin-left: -450px;
+  left: 50%;
+}
+/* line 1449, ../sass/columbia.scss */
+.dob_gate.comp .competition p {
+  font-size: 14px;
+}
+/* line 1454, ../sass/columbia.scss */
+.dob_gate.comp #zepplin {
+  height: 400px;
+}
+/* line 1458, ../sass/columbia.scss */
+.dob_gate.comp #floating_house {
+  background: url(../images/floating_house.png) 29% 0 no-repeat;
+  margin-top: 100px;
+  height: 400px;
+}
+/* line 1464, ../sass/columbia.scss */
+.dob_gate.comp .control-label {
+  color: #670604;
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+  font-size: 20px;
+}
+/* line 1470, ../sass/columbia.scss */
+.dob_gate.comp .control-group {
+  width: 50%;
+  float: left;
+}
+/* line 1474, ../sass/columbia.scss */
+.dob_gate.comp .control-group input {
+  width: 100%;
+}
+/* line 1478, ../sass/columbia.scss */
+.dob_gate.comp .control-group select {
+  width: 30%;
+  margin-top: 5px;
+}
+/* line 1484, ../sass/columbia.scss */
+.dob_gate.comp .control-group .verify-input {
+  width: 50%;
+  margin: 20px auto;
+  margin-left: 322px;
+}
+/* line 1494, ../sass/columbia.scss */
+.dob_gate.comp .console label {
+  line-height: 36px;
+  color: #670604;
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+  font-size: 20px;
+}
+/* line 1501, ../sass/columbia.scss */
+.dob_gate.comp .console input {
+  width: 10%;
+}
+/* line 1508, ../sass/columbia.scss */
+.dob_gate.comp .tc label {
+  line-height: 36px;
+  color: #670604;
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+  font-size: 20px;
+}
+/* line 1515, ../sass/columbia.scss */
+.dob_gate.comp .tc input {
+  width: auto;
+  margin-right: 2%;
+}
+
+/* line 1523, ../sass/columbia.scss */
+.label_row {
+  width: 103%;
+}
+/* line 1526, ../sass/columbia.scss */
+.label_row .control-label {
+  color: #670604;
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  margin: 0px 2.5%;
+  padding: 7px 0;
+  text-align: center;
+  width: 27.5%;
+}
+
+/**end competition page **/
+/**start footer**/
+/* line 1546, ../sass/columbia.scss */
+.dob_gate footer {
+  bottom: 0px;
+}
+/* line 1550, ../sass/columbia.scss */
+.dob_gate .title {
+  width: 980px;
+  margin-left: -490px;
+}
+
+/* line 1556, ../sass/columbia.scss */
+footer {
+  clear: both;
+  background: transparent;
+  color: White;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  bottom: -70px;
+  z-index: 99999;
+}
+
+/* line 1573, ../sass/columbia.scss */
+.ign-elements {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: url(../images/footer_img.png) repeat-x 0px 0px;
+  height: 90px;
+  padding-top: 27px;
+}
+/* line 1584, ../sass/columbia.scss */
+.ign-elements p {
+  color: white;
+}
+/* line 1588, ../sass/columbia.scss */
+.ign-elements a {
+  color: #F8EBC9;
+}
+/* line 1592, ../sass/columbia.scss */
+.ign-elements .row {
+  background: url(../images/html5_logo.png) no-repeat center center;
+}
+
+/* line 1597, ../sass/columbia.scss */
+p.corp-terms {
+  display: block;
+  height: 50px;
+  padding: 10px 0 0 80px;
+  margin: 0 0 0 10px;
+  background: url(../images/IGN-Ent-Logo.png) no-repeat 10px 8px;
+  text-align: left;
+}
+
+/* line 1606, ../sass/columbia.scss */
+p.corp-links {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 10px 0 0;
+}
+
+/* line 1613, ../sass/columbia.scss */
+footer p {
+  font-size: 13px;
+  color: #999;
+  text-shadow: none;
+  text-align: right;
+}
+
+/* line 1620, ../sass/columbia.scss */
+.footer_cap {
+  width: 1020px;
+  background: transparent url(../images/bioshock_footer-cap.png) no-repeat 0 0;
+  height: 65px;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -20px;
+}
+
+/**end footer**/
+/* line 1630, ../sass/columbia.scss */
+.push-top {
+  cursor: pointer;
+}
+
+/* line 1634, ../sass/columbia.scss */
+iframe {
+  width: 100%;
+  border: 0px;
+}
+
+/* line 1639, ../sass/columbia.scss */
+#article_reader {
+  display: none;
+}
+
+/**social buttons**/
+/* line 1646, ../sass/columbia.scss */
+.social-btns {
+  position: fixed;
+  z-index: 9999;
+}
+/* line 1650, ../sass/columbia.scss */
+.social-btns li {
+  float: left;
+  margin: 13px;
+}
+
+/**t and c's**/
+/* line 1657, ../sass/columbia.scss */
+.tnc {
+  min-height: 2000px;
+}
+
+/* line 1661, ../sass/columbia.scss */
+.dob_gate.comp .competition.tandc {
+  top: 200px;
+}
+
+/* line 1668, ../sass/columbia.scss */
+.tandc h5 {
+  font-size: 18px;
+  color: #670604;
+}
+/* line 1673, ../sass/columbia.scss */
+.tandc h3, .tandc h5 {
+  font-weight: normal;
+}
+/* line 1678, ../sass/columbia.scss */
+.tandc ol li {
+  list-style-type: decimal;
+}
+/* line 1684, ../sass/columbia.scss */
+.tandc ul li {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+/* line 1693, ../sass/columbia.scss */
+.tandc .comp_copy li {
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+}
+/* line 1699, ../sass/columbia.scss */
+.tandc .comp_copy p {
+  text-align: left;
+}
+
+/* line 1705, ../sass/columbia.scss */
+.alert {
+  background-color: #c4453c;
+  color: #f6f6f6;
+  display: block;
+  font: bold 14px/40px sans-serif;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  top: -45px;
+  width: 96%;
+  margin: 0px 2% 2%;
+  border: 1px solid red;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}

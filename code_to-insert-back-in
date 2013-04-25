@@ -1,0 +1,63 @@
+
+  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul>
+
+  <article class="row">
+  	<div class="twelve columns">
+  		<div class="container_24 clear">
+		<div id="coverStoriesContainer">
+			<div class="evo-wrapper">
+				<div class="evo-coverStories">
+					<div class="fuseNav clearfix"> <a style="width: 189px;" href="lord-regent-vows-to-bring-murderer-to-justice.html" class="first active">
+						<span class="text"> Murder Justice </span>
+						<span class="fuse"> <span class="activeFuse"></span> </span> </a> <a style="width: 189px;" href="is-the-outsider-at-work-within-dunwall.html"> <span class="text"> Outsider Inside?</span>
+						<span class="fuse"> <span class="activeFuse"></span> </span> </a> <a style="width: 189px;" href="scientists-remain-baffled-by-the-rat-plague.html"> <span class="text"> Rat Plague Horror </span>
+						<span class="fuse"> <span class="activeFuse"></span> </span> </a> <a style="width: 189px;" href="the-miracle-fuel-that-powers-dunwalls-defenses.html"> <span class="text"> Miracle Fuel </span> <span class="fuse"> <span class="activeFuse"></span> </span> </a> <a style="width: 192px;" href="win-a-copy-of-dishonored-and-an-alienware-pc.html"> <span class="text"> Win an Alienware PC! </span> <span class="fuse"> <span class="activeFuse"></span> </span> </a>
+					</div>
+					<!-- END: fuseNav -->
+					<div class="carousel">
+						<div class="storyUnit wide index-0 active">
+							<!-- big image -->
+							<div class="cvr-main"> <a href="#/view1"><img src="./img/editorial/slider-01.jpg" /></a> </div>
+						</div>
+						<!-- END: storyUnit -->
+						<div class="storyUnit wide index-1">
+							<!-- big image -->
+							<div class="cvr-main"> <a href="#/view2"><img src="./img/editorial/slider-02.jpg" /></a> </div>
+						</div>
+						<!-- END: storyUnit -->
+						<div class="storyUnit wide index-2">
+							<!-- big image -->
+							<div class="cvr-main"> <a href="#/view3"><img src="./img/editorial/slider-03.jpg" /></a> </div>
+						</div>
+						<!-- END: storyUnit -->
+						<div class="storyUnit wide index-3">
+							<!-- big image -->
+							<div class="cvr-main"> <a href="#/view4"><img src="./img/editorial/slider-04.jpg" /></a> </div>
+						</div>
+						<!-- END: storyUnit -->
+						<div class="storyUnit wide index-4">
+							<!-- big image -->
+							<div class="cvr-main"> <a href="#/view5"><img src="./img/editorial/slider-05.jpg" /></a>
+							<!--div class="cvr-main"> <a href="http://www.ign.com/videos/2012/06/20/rewind-theater-dishonored-e3-trailer"ign_vid_id="mario-for-president" ign_vid_url="http://www.ign.com/videos/2012/06/20/rewind-theater-dishonored-e3-trailer" js-lightbox="{'title':'Rewind Theater: Dishonored E3 Trailer','teaser':'The world\'s most famous heroic plumber is looking for your vote.','contents':'http://www.ign.com/videos/2012/06/20/rewind-theater-dishonored-e3-trailer'}"><img src="./img/editorial/slider-05.jpg" /><span class="video-overlay"></span></a></div-->
+						</div>
+						<!-- END: storyUnit -->
+					</div>
+					<!-- END: carousel -->
+				</div>
+				<!-- END: evo-coverStories -->
+			</div>
+			<!-- END: evo-wrapper -->
+		</div>
+  	</div>
+  </article>
+
+	<div class="row">
+		<div class="twelve columns">
+
+ 			<div ng-view></div>
+
+		</div>
+	</div>
